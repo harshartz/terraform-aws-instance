@@ -1,7 +1,7 @@
 provider "aws" {
     region = "us-east-1"
-    access_key = "AKIAQVRRS4Q666NBA9OR"
-    secret_key = "LC2FV4mXaxLcwjhHHQIjdUA+2PXdnvKxvXctFU5s"
+    access_key = "AWS_ACCESS_KEY_ID"
+    secret_key = "AWS_SECRET_ACCESS_KEY"
 }
 
 resource "aws_instance" "my_server" {
